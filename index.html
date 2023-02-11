@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <!--Hi! I am the parent of div container with ID child and grandParent of div container with ID grandchild   -->
+<!--  Hi! I am parent of div container with ID grandchild and child of div container with ID parent -->
+<!-- Hi! I am grandchild of div container with ID parent and child of div container with ID child -->
+    <div id="parent">
+        I am the parent wit ID:parent
+        <div id="child">
+           I am the child with ID:child
+            <div id="grandchild">
+               I am the grandchild with ID:grandchild
+            </div>
+        </div>
+    </div>
+    <p id="message">
+
+    </p>
+    <button id="getParent">Parent</button>
+    <button id="getchild">child</button>
+    <button id="getgrandchild">grandchild</button>
+    <script src="./script.js"></script>
+</body>
+</html>
+
